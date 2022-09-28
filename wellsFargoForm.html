@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project Submission Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body style="font-family: Arial; font-size: 12px;">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <h3>Project Submission Form</h3>
+        <p style="color: gray;">Please fill this form to submit your project request. Our team will evaluate all submissions and allocate resources to all approves projects</p>
+        <form action="https://formsubmit.co/maikalangi@gmail.com" method="post">
+            <p style="background-color: lightgray; font-weight: bold;">General Information</p>
+            <table>
+                <tr>
+                    <td>
+
+                        <label for="name">Project Name *
+                            <input type="text" name="name" maxlength="50" required>
+                        </label>
+                        <p style="background-color: lightgray; "><b>Project name: </b>Character limit of 50</p>
+                    </td>
+                    <td>
+                        <label for="chargecode">Project Chargecode *
+                            <input type="text" name="chargecode" minlength="10" required>
+                        </label>
+                        <p style="background-color: lightgray; "><b>Project Chargecode: </b>Minimum field length is 10 characters and the first character must start with an E, I, or M</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <label for="region">Region *
+                            <input type="text" name="region" required>
+                        </label>
+                        <p style="background-color: lightgray; "><b>Area: </b>Dropdown list containing the following choices: "(1) Eastern, (2) Western, (3) Central". This field must also allow for the selection of multiple areas</p>
+                    </td>
+                </tr>
+            </table>
+            <p style="background-color: lightgray; font-weight: bold;">Project Details</p>
+            <Table>
+                <tr>
+                    <td>
+                        <label for="request">Request Type *
+                            <input type="text" name="request" required>
+                        </label>
+                        <p style="background-color: lightgray; "><b>Request Type: </b>
+                            Dropdown list containing the following choices: "(1)New, (2) Enhancement, (3) Other"</p>
+                    </td>
+                    <td colspan="2">
+                        <label for="deadline">Target Deadline *
+                            <input type="text" name="deadline" required>
+                        </label>
+                        <p style="background-color: lightgray; "><b>Target Deadline: </b>Cannot select a date less than today's date</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Submit">
+                        <p style="background-color: lightgray; "><b>Submit: </b>When the submit button is selected, an automatic email should be sent with the following: Thank you for submitting a project with our team! We will reach out to you</p>
+                    </td>
+                </tr>
+            </Table>
+        </form>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
